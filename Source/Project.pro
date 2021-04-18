@@ -24,35 +24,38 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        main.cpp \
-        widget.cpp \
-    camera.cpp \
-    object.cpp \
-    connecter.cpp \
-    scene.cpp \
-    panel.cpp \
-    facade.cpp \
-    painter.cpp \
-    mathvector.cpp \
-    point.cpp \
-    transformator.cpp \
-    baseobject.cpp \
-    sorter.cpp
+    Code/baseobject.cpp \
+    Code/camera.cpp \
+    Code/connecter.cpp \
+    Code/facade.cpp \
+    Code/main.cpp \
+    Code/mathvector.cpp \
+    Code/object.cpp \
+    Code/painter.cpp \
+    Code/panel.cpp \
+    Code/point.cpp \
+    Code/scene.cpp \
+    Code/sorter.cpp \
+    Code/transformator.cpp \
+    Code/widget.cpp \
 
 HEADERS += \
-        widget.h \
-    camera.h \
-    object.h \
-    connecter.h \
-    scene.h \
-    panel.h \
-    facade.h \
-    painter.h \
-    mathvector.h \
-    point.h \
-    transformator.h \
-    baseobject.h \
-    sorter.h
+    Headers/baseobject.h \
+    Headers/camera.h \
+    Headers/connecter.h \
+    Headers/error.h \
+    Headers/facade.h \
+    Headers/mathvector.h \
+    Headers/mvector.h \
+    Headers/mvector.hpp \
+    Headers/object.h \
+    Headers/painter.h \
+    Headers/panel.h \
+    Headers/point.h \
+    Headers/scene.h \
+    Headers/sorter.h \
+    Headers/transformator.h \
+    Headers/widget.h \
 
 FORMS += \
         widget.ui
