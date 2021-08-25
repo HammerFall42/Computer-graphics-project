@@ -1,4 +1,4 @@
-#include "connecter.h"
+#include "./Headers/connecter.h"
 
 Connecter::Connecter(Point c, vector<int> d, QColor col)
 {

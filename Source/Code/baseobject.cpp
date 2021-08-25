@@ -1,4 +1,4 @@
-#include "baseobject.h"
+#include "./Headers/baseobject.h"
 
 BaseObject::BaseObject(Point c, vector<int> d, QColor col)
 {

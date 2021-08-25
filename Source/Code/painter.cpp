@@ -1,4 +1,4 @@
-#include "painter.h"
+#include "./Headers/painter.h"
 
 Painter::Painter()
 {

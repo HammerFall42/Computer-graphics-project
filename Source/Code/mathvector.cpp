@@ -1,4 +1,4 @@
-#include "mathvector.h"
+#include "./Headers/mathvector.h"
 
 MathVector::MathVector(Point l, Point r)
 {

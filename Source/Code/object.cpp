@@ -1,4 +1,4 @@
-#include "object.h"
+#include "./Headers/object.h"
 
 Object::Object(Point c, vector<int> d, QColor col)
 {
